@@ -108,6 +108,7 @@ console.log(secondHalfOfArrayIfItIsEven(fruits));
  */
 function youGottaCalmDown(shout) {
   // Your code here
+  
   if(shout.endsWith('!')){
     return shout.slice(0, shout.indexOf("!")+ 1);
     
